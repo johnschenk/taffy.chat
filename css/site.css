@@ -1,0 +1,11 @@
+body.homepage {
+  background-color: #F12B4C;
+  text-align: center;
+}
+  body.homepage p {
+    color: #fff;
+  }
+  body.homepage a, body.homepage a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
