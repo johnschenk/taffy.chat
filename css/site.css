@@ -1,5 +1,6 @@
 body.homepage {
-  background-color: #F12B4C;
+  background: #F12B4C url('/images/background.jpg') center center fixed;
+  background-size: cover;
   text-align: center;
 }
   body.homepage p {
@@ -9,3 +10,45 @@ body.homepage {
     color: #fff;
     text-decoration: none;
   }
+
+.message_area {
+  background-color: transparent !important;
+  border: 0 !important;
+  color: #fff !important;
+  opacity: 0.5;
+  margin-bottom: 1rem;
+}
+
+  .message_area button {
+    display: none !important;
+  }
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  margin: 20% auto;
+  background-color: #ffffff;
+
+  border-radius: 100%;
+  -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+  animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-scaleout {
+  0% { -webkit-transform: scale(0) }
+  100% {
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+@keyframes sk-scaleout {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 100% {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+    opacity: 0;
+  }
+}

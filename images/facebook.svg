@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-189.000000, -22.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="ChewTaffy" transform="translate(40.000000, 22.000000)">
+                <g id="logo-facebook" transform="translate(149.000000, 0.000000)">
+                    <g id="Layer_2">
+                        <path d="M28.34375,0 L1.65625,0 C0.7421875,0 0,0.7421875 0,1.65625 L0,28.34375 C0,29.2578125 0.7421875,30 1.65625,30 L15,30 L15,18.125 L11.4140625,18.125 L11.4140625,13.75 L15,13.75 L15,10.515625 C15,6.640625 17.6875,4.53125 21.1484375,4.53125 C22.8046875,4.53125 24.5859375,4.65625 25,4.7109375 L25,8.7578125 L22.2421875,8.7578125 C20.359375,8.7578125 20,9.6484375 20,10.9609375 L20,13.75 L24.484375,13.75 L23.8984375,18.125 L20,18.125 L20,30 L28.34375,30 C29.2578125,30 30,29.2578125 30,28.34375 L30,1.65625 C30,0.7421875 29.2578125,0 28.34375,0 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
