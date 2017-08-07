@@ -32,6 +32,54 @@
   <meta name="theme-color" content="#f12b4c">
   <meta name="apple-mobile-web-app-title" content="Taffy">
   <meta name="application-name" content="Taffy">
+
+  <script type="text/javascript">
+  (function(b, r, a, n, c, h, _, s, d, k) {
+  if (!b[n] || !b[n]._q) {
+    for (; s < _.length; ) c(h, _[s++]);
+    d = r.createElement(a);
+    d.async = 1;
+    d.src = 'https://cdn.branch.io/branch-latest.min.js';
+    k = r.getElementsByTagName(a)[0];
+    k.parentNode.insertBefore(d, k);
+    b[n] = h;
+  }
+})(
+  window,
+  document,
+  'script',
+  'branch',
+  function(b, r) {
+    b[r] = function() {
+      b._q.push([r, arguments]);
+    };
+  },
+  { _q: [], _v: 1 },
+  'addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setBranchViewData setIdentity track validateCode'.split(
+    ' ',
+  ),
+  0,
+);
+branch.init('key_live_ahxsTwxkm2xjr68WmfFHypngzvmBCxk3');
+function sendSMS(form) {
+  var phone = form.phone.value;
+  var linkData = {
+    tags: [],
+    channel: 'Website',
+    feature: 'TextMeTheApp',
+  };
+  var options = {};
+  var callback = function(err, result) {
+    if (err) {
+      alert('Sorry, something went wrong - try again? 😢');
+    } else {
+      alert('Text message sent! Check your phone 😀');
+      form.phone.value = '';
+    }
+  };
+  branch.sendSMS(phone, linkData, options, callback);
+}
+</script>
 </head>
 <body class="homepage">
   <header>
@@ -43,13 +91,13 @@
             <img src="/images/logo.svg" width=227 alt="Taffy">
           </div>
           <h1>The <em>chat-first</em> way to meet <em>new people</em>.</h1>
-          <form>
+          <form onsubmit="sendSMS(this); return false;">
             <div class="form-wrapper">
-              <input type="phone" name="phone" value="" placeholder="555-123-4567">
+              <input id="phone" name="phone" class="phone" type="tel" placeholder="555-123-4567">
               <button type="submit" name="submit"><img src="/images/apple.svg" width=24> Text me the app</button>
             </div>
           </form>
-          <a href="#" class="mobile-button"><img src="/images/apple.svg" width=24> Get the App</a>
+          <a href="https://itunes.apple.com/us/app/taffy-meet-new-people-chat-and-date/id1239235134?ls=1&mt=8" class="mobile-button"><img src="/images/apple.svg" width=24> Get the App</a>
         </div>
         <div class="five columns align-right">
           <img src="/images/header-screenshot.png" width=300 alt="Looking for a guy with a sense of adventure." class="screenshot">
@@ -96,13 +144,13 @@
   <section>
     <div class="container">
       <h3>chat. <em>flirt.</em> reveal. <em>meet.</em></h3>
-      <form>
+      <form onsubmit="sendSMS(this); return false;">
         <div class="form-wrapper">
-          <input type="phone" name="phone" value="" placeholder="555-123-4567">
+          <input id="phone" name="phone" class="phone" type="tel" placeholder="555-123-4567">
           <button type="submit" name="submit"><img src="/images/apple.svg" width=24> Text me the app</button>
         </div>
       </form>
-      <a href="#" class="mobile-button"><img src="/images/apple.svg" width=24> Get the App</a>
+      <a href="https://itunes.apple.com/us/app/taffy-meet-new-people-chat-and-date/id1239235134?ls=1&mt=8" class="mobile-button"><img src="/images/apple.svg" width=24> Get the App</a>
     </div>
   </section>
   <footer>
