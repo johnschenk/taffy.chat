@@ -109,9 +109,8 @@ function sendSMS(form) {
     <div class="container">
       <div class="row">
         <div class="seven columns">
-          <h2>Unwrap the Possibilities.</h2>
-          <p>Taffy is a dating and friending app that puts personality on the same level as physical appearances…</p>
-          <p class="emoji"><img src="/images/emoji/candy.png" width=40 height=40> <img src="/images/emoji/two-hearts.png" width=40 height=40></p>
+          <h2>meet new people.</h2>
+          <p>Taffy is the social discovery app that sparks conversation through mystery and curiosity. It’s the chat-first way to meet people.</p>
         </div>
         <div class="five columns align-right">
           <img src="/images/posts-screenshot.jpg" width=300 alt="Taffy Posts" class="screenshot">
@@ -123,29 +122,16 @@ function sendSMS(form) {
           <img src="/images/chat-screenshot.jpg" width=300 alt="Taffy Chat" class="screenshot">
         </div>
         <div class="seven columns">
-          <h2>Type Before You Swipe.</h2>
+          <h2>unblur your profile pics.</h2>
           <p>…by putting conversation first. Photos are blurry until you start chatting.</p>
           <p class="emoji"><img src="/images/emoji/speech-balloon.png" width=40 height=40> <img src="/images/emoji/right-pointing-backhand.png" width=40 height=40> <img src="/images/emoji/camera.png" width=40 height=40></p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="seven columns">
-          <h2>Find Your Flavor.</h2>
-          <p>We know you’re more than just a profile. Taffy lets you express yourself with posts and topics.</p>
-          <p class="emoji">
-            <img src="/images/emoji/heart.png" width=40 height=40>️ <img src="/images/emoji/hugging-face.png" width=40 height=40> <img src="/images/emoji/bed.png" width=40 height=40>️ <img src="/images/emoji/thinking-face.png" width=40 height=40> <img src="/images/emoji/speech-balloon.png" width=40 height=40> <img src="/images/emoji/question-mark.png" width=40 height=40>
-          </p>
-        </div>
-        <div class="five columns align-right">
-          <img src="/images/search-screenshot.jpg" width=300 alt="Taffy Search" class="screenshot">
         </div>
       </div>
     </div>
   </main>
   <section>
     <div class="container">
-      <h3>chat. <em>flirt.</em> reveal. <em>meet.</em></h3>
+      <h3>meet. chat. reveal.</h3>
       <form onsubmit="sendSMS(this); return false;">
         <div class="form-wrapper">
           <input id="phone" name="phone" class="phone" type="tel" placeholder="555-123-4567">
